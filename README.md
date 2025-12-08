@@ -33,3 +33,19 @@ git pull origin main --no-rebase
 git push origin main
 
 
+----
+
+Diference between git push and git pull request:
+
+| Action           | What it is    | Where it happens | Purpose                                    |
+| ---------------- | ------------- | ---------------- | ------------------------------------------ |
+| **git push**     | Git command   | Terminal         | Upload commits to a remote branch          |
+| **Pull Request** | GitHub action | GitHub UI        | Ask someone to review + merge your changes |
+
+git add .
+git commit -m "change"
+git push origin feature-branch    # step 1: send your branch
+# go to GitHub → create PR        # step 2: ask to merge your branch
+
+Git push: Upload my local commits to a remote branch.
+Pull request: I want someone to pull my changes into another branch (usually main). Please review and merge.
