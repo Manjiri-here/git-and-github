@@ -89,3 +89,5 @@ docker-compose	https://github.com/Manjiri-here/docker-compose.git (fetch)
 docker-compose	https://github.com/Manjiri-here/docker-compose.git (push)
 
 And to check if current branch is master or main use command: % git branch
+
+And then you can use: % git push <origin> <main/master>
