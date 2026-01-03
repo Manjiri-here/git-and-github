@@ -77,3 +77,15 @@ The team reviews, suggests changes ("Add more sugar!"), and only if approved do 
 
 This way, the official cookbook stays high-quality, and everyone collaborates safely.
 Many people get confused because both involve "pushing" first (you usually push your branch before opening a PR), but the PR is the extra step for safe merging.
+
+---
+
+% git remote -v --> Gives the name of remote branch, we should use that name instead of origin if it is different.
+
+For instance in below case the branch name is docker-compose:
+
+$ git remote -v
+docker-compose	https://github.com/Manjiri-here/docker-compose.git (fetch)
+docker-compose	https://github.com/Manjiri-here/docker-compose.git (push)
+
+And to check if current branch is master or main use command: % git branch
